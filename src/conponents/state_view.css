@@ -1,0 +1,45 @@
+#state_view_table_header {
+  height: 50%;
+  background: "#ffffff" /* Old browsers */;
+  background: -moz-linear-gradient(
+    left,
+    #eeeeee 0%,
+    #ffa73d 50%,
+    #ff7c00 100%,
+    #ff7f04 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #eeeeee 0%,
+    #ffa73d 50%,
+    #ff7c00 100%,
+    #ff7f04 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eeeeee 0%,
+    #ffa73d 50%,
+    #ff7c00 100%,
+    #ff7f04 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 */
+}
+
+#button_del {
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  color: rgb(158, 158, 158);
+}
+
+#button_del:hover {
+  color: black;
+}
+
+.brighter {
+  transition: 0.3s;
+}
+
+.brighter:hover {
+  color: #f93f10;
+}

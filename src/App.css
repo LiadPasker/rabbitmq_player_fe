@@ -1,0 +1,65 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#NavBar_Buttons {
+  height: 50%;
+  background: "#ffffff" /* Old browsers */;
+  background: -moz-linear-gradient(
+    left,
+    #ffffff 0%,
+    #ffa73d 50%,
+    #ff7c00 100%,
+    #ff7f04 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #ffffff 0%,
+    #ffa73d 50%,
+    #ff7c00 100%,
+    #ff7f04 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffa73d 50%,
+    #ff7c00 100%,
+    #ff7f04 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 */
+}

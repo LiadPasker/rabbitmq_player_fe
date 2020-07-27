@@ -1,0 +1,8 @@
+.brighter {
+  color: blue;
+  transition: 0.3s;
+}
+
+.brighter:hover {
+  color: #f93f10;
+}
